@@ -1,0 +1,524 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  /* color: #222;
+  font-size: 1em;
+  line-height: 1.4; */
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+/* textarea {
+  resize: vertical;
+} */
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.main{
+  /* min-height: 100px;
+  width: 950px; */
+  font-family: Myriad Pro;
+  text-align: center;
+}
+#Welcome-area{
+  /* height: 600px; */
+  /* width: 100%; */
+  background-color: #87509c;
+  text-align: center;
+}
+
+.menu{
+  text-align: center;
+}
+.menu ul li a:hover{
+  background-color: #643a79;
+}
+#active{
+  background-color: #643a79;
+}
+.slicknav_menu {
+  display:none;
+}
+.text-unit{
+  text-align: center;
+}
+   
+   button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fcf0ec;
+   }
+   #Services-area{
+    text-align: center;
+    color: #ffffff;
+    background-color: #17c2a4;
+    
+   }
+    .Service-ihp h1{
+      font-size: 24px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 28px;
+      color: #ffffff;
+    }
+    
+    #Team-area{
+      color: #3c4761;
+      background-color: #e7f1f8;
+      text-align: center;
+     }
+      .Team-ihsp span{
+        color: #30bae7;
+        width: 85px;
+      }
+.socialmeia a i{
+  transition: all .3s linear;
+}
+.socialmeia a:hover i{
+  transform: scale(1.4);
+}
+    .fa-2x {
+      font-size: 15px;
+  }
+    .fa-facebook{
+        color: #3b5998;
+    }
+    .fa-twitter{
+        color: #00acee;
+    }
+    .fa-linkedin{
+        color: #0e76a8;
+    }
+    .fa-envelope{
+      color: #5474a5;
+    }
+#Skills-area{
+  text-align: center;
+  
+}
+.skill{
+  width: 160px;
+  /* height: 200px; */
+  /* background-color: #6495ed; */
+  position: relative;
+  display: inline-block;
+}
+.outer{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+ /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+             -6px -6px 10px -1px rgba(255, 255, 255, 0.7); */
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+.inner{
+  height: 120px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+              inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+              -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+              0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+              0px 12px 10px -10px rgba(0, 0, 0, 0.05); */
+}
+#number{
+  /* font-weight: 600; */
+  font-size: 50px;
+  color: #555;
+}
+circle{
+  fill: none;
+  stroke: #2EBBE6;
+  stroke-width: 10px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim 2s linear forwards;
+}
+svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@keyframes anim{
+  100%{
+      stroke-dashoffset: 47.2;
+  }
+}
+#num{
+  /* font-weight: 600; */
+  font-size: 50px;
+  color: #555;
+}
+.num circle{
+  fill: none;
+  stroke: #D7457F;
+  stroke-width: 10px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anima 2s linear forwards;
+}
+@keyframes anima{
+  100%{
+      stroke-dashoffset: 118;
+  }
+}
+
+#numb{
+  /* font-weight: 600; */
+  font-size: 50px;
+  color: #555;
+}
+.numb circle{
+  fill: none;
+  stroke: url(#NumbGradient);
+  stroke-width: 10px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: animat 2s linear forwards;
+}
+@keyframes animat{
+  100%{
+      stroke-dashoffset: 141.6;
+  }
+}
+#numbe{
+  /* font-weight: 600; */
+  font-size: 50px;
+  color: #555;
+}
+.numbe circle{
+  fill: none;
+  stroke: #EC7C4D;
+  stroke-width: 10px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: animati 2s linear forwards;
+}
+@keyframes animati{
+  100%{
+      stroke-dashoffset: 70.8;
+  }
+}
+#Portfolio-area{
+  text-align: center;
+  color: #393939;
+  background-color: #ffdd99;
+ }
+
+ 
+  /* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 42px;
+    margin: 0px 10px 63px;
+    background-color: #ebc985;
+    color: #514c43;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .btn.active {
+    background-color: #ffffff;
+    color: #888888;
+    border-radius: 5px;
+  }
+  .content p{
+    margin: 32px 0px 64px 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .Portfolio,
+  .Portfolio > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */
+  .Portfolio:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    padding: 1px;
+    text-align: center;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+#Testimonials-area{
+  text-align: center;
+  color: #ffffff;
+  background-color: #d74680;
+}
+#Get_in_touch-area{
+  text-align: center;
+  color: #ffffff;
+  background-color: #3c5499;
+}
+textarea{
+  background-color: #273a71;
+  border: none;
+  padding: 18px;
+  width: 65%;
+  height: 200px;
+  border-radius: 5px;
+  color: #fff;
+  /* text-emphasis-color: #ffff; */
+}
+#Social_media span{
+  color: #30bae7;
+}
+#Social_media ul{
+  padding-left: 0px;
+  }
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .visually-hidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * The use of `table` rather than `block` is only necessary if using
+ * `::before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+

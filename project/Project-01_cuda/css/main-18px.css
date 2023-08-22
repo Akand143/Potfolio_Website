@@ -1,0 +1,697 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+.logo{
+	margin: 60px 0px 145px 0px;
+  }
+  .menu ul li{
+	display: inline-block;
+	margin: 60px 5px;
+  }
+  .menu ul li a{
+	color: #f7f3f8;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 17px;
+	border-radius: 5px;
+  }
+  .menu ul li a:hover{
+	background-color: #643a79;
+  }
+  #active{
+	background-color: #643a79;
+  }
+.text-unit p{
+    color: #f7f3ea;
+    text-align: center;
+    font-size: 42px;
+    font-family: Myriad Pro;
+    margin-bottom: 60px;
+   }
+  .text-unit button{
+    background-color: #eb7d4b;
+    padding: 15px 50px;
+    margin-bottom: 143px;
+    border: none;
+    border-bottom: 5px solid #c86a40;
+    border-radius: 5px;
+   }
+   #Services-area h2{
+    text-transform: uppercase;
+    margin-top: 120px;
+    letter-spacing: .2em;
+   }
+   .Service h2::after{
+	content:"";
+	background-color: #14a58c;
+	width: 85px;
+	height: 3px;
+	display: block;
+	margin: 23px auto;
+  }
+  .Service-ihp img{
+	margin-bottom: 60px;
+	height: 130px;
+   /* margin-left: 10px; */
+  }
+  .Service-ihp p{
+	font-size: 16px;
+	margin-bottom: 130px;
+	/* margin-left: 66px; */
+	color: #b2ebe1;
+	text-align: center;
+  }
+  #Team-area h2{
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: bold;
+	margin-top: 120px;
+	letter-spacing: .1em;
+	color: #3c4761;
+   }
+   .Team h2:after{
+	content:"";
+	background-color: #c8d9e5;
+	width: 85px;
+	height: 3px;
+	display: block;
+	margin: 23px auto;
+  }
+  .Team-ihsp img{
+	border-radius: 50%;
+	margin-bottom: 42px;
+  }
+  .Team-ihsp h1{
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 0px 0px 17px 0px;
+	color: #27283d;
+  }
+  .Team-ihsp p{
+	text-align: justify;
+	margin: 28px 0px;
+  }
+  .socialmeia{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 129px;
+  }
+  .socialmeia a{
+	background-color: #f5f6fa;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	/* line-height: 50px; */
+	box-shadow: 1px 4px 2px 2px #dcdde1;
+	text-align: center;
+	margin: 10px;
+	padding-top: 0px;
+  }
+  .circular h2{
+	color: #3c4761;
+	margin-top: 117px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: .1em;
+  }
+  .circular h2::after{
+	content: "";
+	background-color: #c8d9e5;
+	width: 85px;
+	height: 3px;
+	display: block;
+	margin: 23px auto;
+	border-radius: 1px;
+  }
+  .circular p{
+	color: #3c4761;
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 85px;
+  }
+  .skill p{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+	margin: 5px 0px 122px 0px;
+  }
+.our h2{
+	text-transform: uppercase;
+	margin-top: 120px;
+	letter-spacing: .2em;
+	font-size: 40px;
+}
+.our h2::after{
+	content:"";
+	background-color: #e5c37f;
+	width: 85px;
+	height: 3px;
+	display: block;
+	margin: 23px auto;
+}
+.our p{
+	margin-bottom: 43px;
+	font-size: 18px;
+}
+.Portfolio button{
+    color: #fcf0ec;
+    background-color: #17c2a4;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    margin-bottom: 108px;
+    border: none;
+    border-bottom: 5px solid #14a58c;
+    border-radius: 5px;
+    text-align: center;
+    /* margin-left: -600px; */
+}
+.about h2{
+    text-transform: uppercase;
+    margin-top: 120px;
+    letter-spacing: .1em;
+    font-size: 40px;
+}
+.about h2:after{
+  content:"";
+  background-color: #b73c6d;
+  width: 85px;
+  height: 3px;
+  display: block;
+  margin: 23px auto;
+}
+.about p{
+	margin-bottom: 69px;
+	font-size: 18px;
+  }
+  .Testimonials img{
+	border-radius: 50%;
+	margin-bottom: 113px;
+	width: 100px;
+  }
+  .Testimonials p{
+	margin: 25px 0px;
+	font-size: 21px;
+	text-align: justify;
+  }
+  .Testimonials h1{
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	color: #ffffff;
+	text-align: justify;
+	/* padding-left: 42px; */
+  }
+  .Testimonials h6{
+	color: #facd96;
+	text-align: justify;
+	/* float: left; */
+	margin-bottom: 127px;
+  }
+  .touch-area h2{
+    text-transform: uppercase;
+    margin-top: 120px;
+    letter-spacing: .1em;
+    font-size: 40px;
+   }
+.touch-area h2:after{
+  content:"";
+  background-color: #273a71;
+  width: 85px;
+  height: 3px;
+  display: block;
+  margin: 23px auto;
+}
+.touch-area p{
+	margin-bottom: 69px;
+	font-size: 18px;
+  }
+.touch-area input{
+	background-color: #273a71;
+	border: none;
+	margin: 0px 0px 25px 0px;
+	padding: 18px;
+	width: 31%;
+	border-radius: 5px;
+	color: #fff;
+  }
+.touch-area input[type=text] {
+	margin-right: 28px;
+  }
+  .touch-area button{
+	color: #fcf0ec;
+	background-color: #17c2a4;
+	text-transform: uppercase;
+	padding: 15px 50px;
+	margin: 40px 0px 114px 0px;
+	border: none;
+	border-bottom: 5px solid #14a58c;
+	border-radius: 5px;
+   }
+   #Social_media ul li{
+	display: inline-block;
+	padding: 10px 17px;
+	height: 30px;
+	line-height: 50px;
+  }
+  #Social_media ul li a{
+	color: #f7f3f8;
+	text-decoration: none;
+	/* padding: 5px 17px; */
+	font-size: 24px;
+  }
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.menu ul li{
+		display: inline-block;
+		margin: 60px 0px;
+	  }
+	.menu ul li a{
+		color: #f7f3f8;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding: 10px 5px;
+		border-radius: 5px;
+		font-size: 14px;
+	  }
+	  .text-unit p{
+		color: #f7f3ea;
+		text-align: center;
+		font-size: 35px;
+		font-family: Myriad Pro;
+		margin-bottom: 60px;
+	   }
+	   #Team-area h2{
+		text-transform: uppercase;
+		font-size: 40px;
+		font-weight: bold;
+		margin-top: 120px;
+		letter-spacing: .1em;
+		color: #3c4761;
+	   }
+	   .Team-ihsp img{
+		border-radius: 50%;
+		margin-bottom: 42px;
+		width: 100%;
+	  }
+	  .Team-ihsp h1{
+		font-size: 14px;
+		text-transform: uppercase;
+		margin: 0px 0px 0px 0px;
+		color: #27283d;
+	  }
+	  .Team-ihsp p{
+		text-align: justify;
+		margin: 15px 0px 5px 0px;
+		height: 175px;
+	  }
+	  .socialmeia{
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 50px;
+	  }
+	  .socialmeia a{
+		background-color: #f5f6fa;
+		width: 19px;
+		height: 25px;
+		border-radius: 50%;
+		/* line-height: 50px; */
+		box-shadow: 1px 4px 2px 2px #dcdde1;
+		text-align: center;
+		margin: 10px;
+		padding-top: 0px;
+	  }
+	  .our h2{
+		text-transform: uppercase;
+		margin-top: 120px;
+		letter-spacing: .2em;
+		font-size: 32px;
+	}
+	.our p{
+		margin-bottom: 43px;
+		font-size: 12px;
+	}
+	#Social_media ul li{
+		display: inline-block;
+		padding: 10px 10px;
+		height: 30px;
+		line-height: 50px;
+	  }
+	  #Social_media ul li a{
+		color: #f7f3f8;
+		text-decoration: none;
+		/* padding: 5px 17px; */
+		font-size: 22px;
+	  }
+	  .touch-area p{
+		margin-bottom: 69px;
+		font-size: 17px;
+	  }
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	.menu{
+		display: none;
+	}
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+		text-transform: uppercase;
+		background-color: #87509c;
+		padding-bottom: 0px;
+	}
+	.logo{
+		margin: 15px 0px 35px 0px;
+	  }
+	.text-unit p{
+		color: #f7f3ea;
+		text-align: center;
+		font-size: 14px;
+		font-family: Myriad Pro;
+		margin-bottom: 20px;
+	   }
+	   .text-unit button{
+		background-color: #eb7d4b;
+		padding: 5px 5px;
+		margin-bottom: 20px;
+		border: none;
+		border-bottom: 5px solid #c86a40;
+		border-radius: 5px;
+	   }
+	   #Services-area h2{
+		text-transform: uppercase;
+		margin-top: 50px;
+		letter-spacing: .2em;
+		font-size: 30px;
+	   }
+	   .Service h2::after{
+		content:"";
+		background-color: #14a58c;
+		height: 3px;
+		width: 100%;
+		display: block;
+		margin: 23px auto;
+	  }
+	  .Service-ihp img{
+		margin: 20px 0px 0px 0px;
+		height: 130px;
+	   /* margin-left: 10px; */
+	  }
+	  .Service-ihp p{
+		font-size: 16px;
+		margin-bottom: 30px;
+		/* margin-left: 66px; */
+		color: #b2ebe1;
+		text-align: center;
+	  }
+	  #Team-area h2{
+		text-transform: uppercase;
+		font-size: 28px;
+		margin-top: 50px;
+		letter-spacing: .1em;
+		color: #3c4761;
+		font-weight: bolder;
+	   }
+	   .Team h2:after{
+		content:"";
+		background-color: #c8d9e5;
+		width: 100%;
+		height: 3px;
+		display: block;
+		margin: 23px auto;
+	  }
+	  .Team-ihsp img{
+		border-radius: 50%;
+		margin: 0px 0px 5px 0px ;
+	  }
+	  .Team-ihsp h1{
+		font-size: 24px;
+		text-transform: uppercase;
+		margin: 0px 0px 0px 0px;
+		color: #27283d;
+	  }
+	  .Team-ihsp p{
+		text-align: justify;
+		margin: 28px 0px -25px 0px;
+	  }
+	  .socialmeia{
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 10px;
+	  }
+	  .circular h2{
+		color: #3c4761;
+		margin-top: 50px;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 30px;
+		letter-spacing: .1em;
+		font-weight: bolder;
+	  }
+	  .circular h2::after{
+		content: "";
+		background-color: #c8d9e5;
+		width: 100%;
+		height: 3px;
+		display: block;
+		margin: 23px auto;
+		border-radius: 1px;
+	  }
+	  .circular p{
+		color: #3c4761;
+		text-align: justify;
+		font-size: 18px;
+		margin-bottom: 40px;
+	  }
+	  .skill p{
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 18px;
+		margin: 5px 0px 40px 0px;
+	  }
+	  .our h2{
+		text-transform: uppercase;
+		margin-top: 50px;
+		letter-spacing: .2em;
+		font-size: 30px;
+		font-weight: bolder;
+	   }
+	   .our h2:after{
+		content:"";
+		background-color: #e5c37f;
+		width: 100%;
+		height: 3px;
+		display: block;
+		margin: 23px auto;
+	  }
+	  .our p{
+		margin-bottom: 43px;
+		font-size: 15px;
+		text-align: justify;
+	   }
+	   .Portfolio button{
+		color: #fcf0ec;
+		background-color: #17c2a4;
+		text-transform: uppercase;
+		/* padding: 15px 50px; */
+		margin-bottom: 20px;
+		border: none;
+		border-bottom: 5px solid #14a58c;
+		border-radius: 5px;
+		text-align: center;
+		/* margin-left: -600px; */
+	   }
+	   .about h2{
+		text-transform: uppercase;
+		margin-top: 50px;
+		letter-spacing: .1em;
+		font-size: 30px;
+	}
+	.about h2:after{
+	  content:"";
+	  background-color: #b73c6d;
+	  width: 100%;
+	  height: 3px;
+	  display: block;
+	  margin: 23px auto;
+	}
+	.about p{
+		margin-bottom: 20px;
+		font-size: 18px;
+	  }
+	  .Testimonials img{
+		border-radius: 50%;
+		margin-bottom: 5px;
+		width: 100px;
+	  }
+	  .Testimonials p{
+		margin: 25px 0px 5px 0px;
+		font-size: 21px;
+		text-align: justify;
+	  }
+	  .Testimonials h1{
+		font-size: 24px;
+		text-transform: uppercase;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		color: #ffffff;
+		text-align: center;
+		/* padding-left: 42px; */
+	  }
+	  .Testimonials h6{
+		color: #facd96;
+		text-align: center;
+		margin-bottom: 50px;
+	  }
+	  .touch-area h2{
+		text-transform: uppercase;
+		margin-top: 50px;
+		letter-spacing: .1em;
+		font-size: 30px;
+	   }
+	.touch-area h2:after{
+	  content:"";
+	  background-color: #273a71;
+	  width: 100%;
+	  height: 3px;
+	  display: block;
+	  margin: 23px auto;
+	}
+	.touch-area input{
+		background-color: #273a71;
+		border: none;
+		margin: 0px 0px 25px 0px;
+		padding: 10px;
+		width: 49%;
+		border-radius: 5px;
+		color: #fff;
+	  }
+	.touch-area input[type=text] {
+		margin-right: 0px;
+	  }
+	  .touch-area button{
+		color: #fcf0ec;
+		background-color: #17c2a4;
+		text-transform: uppercase;
+		padding: 15px 50px;
+		margin: 40px 0px 50px 0px;
+		border: none;
+		border-bottom: 5px solid #14a58c;
+		border-radius: 5px;
+	   }
+	   #Social_media ul li{
+		display: inline-block;
+		padding: 5px 3px;
+		height: 30px;
+		line-height: 50px;
+	  }
+	  #Social_media ul li a{
+		color: #f7f3f8;
+		text-decoration: none;
+		/* padding: 5px 17px; */
+		font-size: 17px;
+	  }
+	  #Social_media ul{
+		padding-left: 0px;
+	  }
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.Service p{
+		font-size: 14px;
+	}
+	#Team-area h2{
+		text-transform: uppercase;
+		font-size: 26px;
+		margin-top: 50px;
+		letter-spacing: .1em;
+		color: #3c4761;
+		font-weight: bolder;
+	   }
+	   .circular p{
+		color: #3c4761;
+		text-align: justify;
+		font-size: 15px;
+		margin-bottom: 40px;
+	  }
+	  .about h2{
+		text-transform: uppercase;
+		margin-top: 50px;
+		letter-spacing: .1em;
+		font-size: 27px;
+	}
+	#Social_media ul li a{
+		color: #f7f3f8;
+		text-decoration: none;
+		/* padding: 5px 17px; */
+		font-size: 16px;
+	  }
+	  #Social_media ul{
+		padding-left: 0px;
+	  }
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+	
+}

@@ -1,0 +1,575 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+.mail ul{
+	padding-left: 0;
+  }
+  .mail ul li{
+	display: inline-block;
+	margin: 20px 20px 0px 0px;
+  }
+  .social ul{
+	right: 0;
+  }
+  .social ul li{
+	display: inline-block;
+	margin: 20px 20px 0px 0px;
+  }
+  .menu-left ul li{
+	display: inline-block;
+	margin: 20px 20px 20px 0px;
+  }
+.menu-right ul li{
+	display: inline-block;
+	margin: 20px 20px 20px 0px;
+  }
+  .banner{
+	width: 100%;
+	height: 300px;
+  }
+  .about-img img{
+	width: 100%;
+	padding: 20px 0px;
+  }
+  .about-detail h1{
+	font-size: 32px;
+	margin: 5px 0px 10px 0px;
+	color: #1f2836;
+  }
+  .about-detail p{
+	font-size: 14px;
+	/* line-height: 15px; */
+	color: #1e1e20;
+  }
+  .about-box{
+	width: 100%;
+	/* float: left; */
+	/* margin-right: 1%; */
+	border-radius: 5px;
+	padding: 5px 0px;
+	text-align: center;
+	margin-top: 10px;
+	border: 2px solid #787;
+  }
+  .about-box img{
+	width: 100%;
+  }
+  .course-list li{
+	/* width: 23%;
+	float: left; */
+	list-style: none;
+	text-align: center;
+	padding: 20px 2px;
+	/* margin: 1%;
+	border-radius: 10px; */
+  }
+  .course-list p{
+	color: #0000ff;
+	font-size: 18px;
+	margin-top: 10px;
+  }
+  .principal-info h1{
+	color: #000;
+	font-size: 30px;
+	margin-bottom: 20px;
+  }
+  .gallery img{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 10px;
+  }
+  /* .testimonial-container .col-md-4{
+	width: 33%;
+  } */
+  .notice-board-section{
+	background-color: #ffebcd;
+	float: left;
+	margin: 10px 0;
+	display: table;
+	padding: 15px 10px 20px 10px;
+	width: 100%;
+	}
+	.text{
+		text-align: justify;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.counter{
+		text-align: center;
+		padding: 30px 10px;
+		width: 100%;
+		margin: 20px;
+		background-color: #787eff;
+		color: #fff;
+		border-radius: 10px;
+	  }
+	  .placement h1{
+		font-size: 40px;
+	  }
+	  .subscribe-us input{
+		background-color: #273a71;
+		border: none;
+		margin: 0px 0px 25px 0px;
+		padding: 8px;
+		width: 45%;
+		border-radius: 5px;
+		color: #fff;
+	}
+	  .subscribe-us button{
+		color: #fcf0ec;
+		background-color: #17c2a4;
+		text-transform: uppercase;
+		padding: 15px 50px;
+		margin: 20px 0px 10px 70px;
+		border: none;
+		border-bottom: 5px solid #14a58c;
+		border-radius: 5px;
+	  text-align: center;
+	}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.mail ul{
+		padding-left: 0;
+		text-align: center;
+	  }
+	  .mail ul li{
+		display: inline-block;
+		margin: 20px 30px 0px 30px;
+	  }
+	
+	.social ul li{
+		display: inline-block;
+		margin: 20px 7px 0px 7px;
+	  }
+	  .about-img img{
+		width: 100%;
+		padding: 100px 0px;
+	  }
+	  .about-detail h1{
+		font-size: 32px;
+		margin: 5px 0px 10px 0px;
+		color: #1f2836;
+		text-align: justify;
+	  }
+	  .about-box{
+		width: 100%;
+		/* float: left; */
+		/* margin-right: 1%; */
+		border-radius: 5px;
+		padding: 0px 0px;
+		text-align: center;
+		margin-top: 0px;
+		border: 2px solid #787;
+	  }
+	  /* .about-box img{
+		width: 50%;
+		height: 150;
+	  } */
+	  .principal-info h1{
+		color: #000;
+		font-size: 25px;
+		margin-bottom: 30px;
+		text-align: justify;
+	  }
+	  .gallery img{
+		height: 100px;
+		width: 100%;
+		margin-bottom: 10px;
+	  }
+	  /* #testimonial-section .col-md-4{
+		width: 33%;
+	  } */
+	  .subscribe-us input{
+		background-color: #273a71;
+		border: none;
+		margin: 0px 0px 25px 0px;
+		padding: 8px 4px;
+		width: 44%;
+		border-radius: 5px;
+		color: #fff;
+	}
+	.subscribe-us button{
+		color: #fcf0ec;
+		background-color: #17c2a4;
+		text-transform: uppercase;
+		padding: 15px 50px;
+		margin: 20px 0px 10px 0px;
+		border: none;
+		border-bottom: 5px solid #14a58c;
+		border-radius: 5px;
+		text-align: center;
+	}
+
+
+
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	.mail ul{
+		padding-left: 0;
+		text-align: center;
+	  }
+
+.mail ul li{
+		display: inline-block;
+		margin: 20px 10px 0px 10px;
+	  }
+
+	.social ul{
+		right: 0;
+		padding-left: 0px;
+		text-align: center;
+	  }
+
+.social ul li{
+		display: inline;
+		margin: 20px;
+		text-align: center;
+	  }
+
+	.menu-left ul{
+		padding-left: 0;
+		text-align: center;
+	  }
+
+.menu-left ul li{
+		display: inline-block;
+		margin: 20px 10px;
+	  }
+	  
+	.menu-right ul{
+		/* padding-right: 0; */
+		padding-left: 0px;
+		text-align: center;
+	  }
+
+.menu-right ul li{
+		display: inline-block;
+		margin: 20px 5px 20px 5px;
+	  }
+
+	.banner{
+		width: 100%;
+		height: 200px;
+	  }
+
+.about-detail h1{
+		font-size: 25px;
+		margin: 5px 0px 10px 0px;
+		color: #1f2836;
+		text-align: center;
+	  }
+
+	.about-detail p{
+		font-size: 14px;
+		/* line-height: 15px; */
+		color: #1e1e20;
+		text-align: justify;
+		margin: 5px 5px;
+	  }
+
+.about-box{
+		width: 100%;
+		/* float: left; */
+		/* margin-right: 1%; */
+		border-radius: 5px;
+		padding: 5px 0px;
+		text-align: center;
+		margin-top: 10px;
+		border: none;
+	  }
+
+	.about-box img{
+		width: 100%;
+	  }
+
+#heading-area .col-md-3{
+		width: 50%;
+	  }
+
+	.principal-info h1{
+		color: #000;
+		font-size: 25px;
+		margin-bottom: 20px;
+		text-align: center;
+	  }
+
+.gallery img{
+		height: 70px;
+		width: 100%;
+		margin-bottom: 10px;
+	  }
+
+	.notice-board-section{
+		background-color: #ffebcd;
+		float: left;
+		margin: 10px 0px;
+		display: table;
+		padding: 15px 10px 20px 10px;
+		width: 100%;
+	  }
+
+.text{
+		text-align: justify;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	  }
+
+	.counter{
+		text-align: center;
+		padding: 30px 10px;
+		width: 100%;
+		margin: 20px auto;
+		background-color: #787eff;
+		color: #fff;
+		border-radius: 10px;
+	  }
+
+.placement h1{
+		font-size: 25px;
+		text-align: center;
+	  }
+
+
+.socialmeia{
+		/* height: 100vh;
+		justify-content: center; */
+		display: flex;
+		align-items: center;
+		font-size: 10px;
+		padding-bottom: 20px;
+	  }
+
+	.subscribe-us{
+		color: #fff;
+		text-align: center;
+	  }
+
+.subscribe-us button{
+		color: #fcf0ec;
+		background-color: #17c2a4;
+		text-transform: uppercase;
+		padding: 15px 50px;
+		margin: 20px 0px 10px 0px;
+		border: none;
+		border-bottom: 5px solid #14a58c;
+		border-radius: 5px;
+		text-align: center;
+	  }
+	
+
+
+
+
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.mail ul{
+		padding-left: 0;
+		text-align: center;
+	  }
+	  .mail ul li{
+		display: inline-block;
+		margin: 20px 30px 0px 30px;
+	  }
+	
+	.social ul li{
+		display: inline-block;
+		margin: 20px 40px 0px 40px;
+	  }
+	  .about-detail h1{
+		font-size: 32px;
+		margin: 5px 0px 10px 0px;
+		color: #1f2836;
+		text-align: justify;
+	  }
+	  .about-box{
+		width: 100%;
+		/* float: left; */
+		/* margin-right: 1%; */
+		border-radius: 5px;
+		padding: 5px 0px;
+		text-align: center;
+		margin-top: 10px;
+		border: 2px solid #787;
+	  }
+	  /* .about-box img{
+		width: 50%;
+		height: 150;
+	  } */
+	  #heading-area .col-md-3{
+		width: 25%;
+	  }
+	  .course-list li{
+		/* width: 23%;
+		float: left; */
+		list-style: none;
+		text-align: center;
+		padding: 0px 0px;
+		/* margin: 1%;
+		border-radius: 10px; */
+	  }
+	  .course-list p{
+		color: #0000ff;
+		font-size: 14px;
+		margin-top: 10px;
+	  }
+	  .principal-info h1{
+		color: #000;
+		font-size: 25px;
+		margin-bottom: 30px;
+		text-align: justify;
+	  }
+	  .gallery img{
+		height: 100px;
+		width: 100%;
+		margin-bottom: 10px;
+	  }
+	  .counter{
+		text-align: center;
+		padding: 30px 10px;
+		width: 100%;
+		margin: 20px auto;
+		background-color: #787eff;
+		color: #fff;
+		border-radius: 10px;
+	  }
+	  /* .testimonial-container{
+		min-width: 1200px;
+	  } */
+	  .quick-link li{
+		width: 50%;
+		float: left;
+		margin-bottom: 10px;
+		padding-left: 30px;
+		text-align: justify;
+	  }
+	  .subscribe-us{
+		color: #fff;
+		text-align: center;
+	  }
+	  .subscribe-us button{
+		color: #fcf0ec;
+		background-color: #17c2a4;
+		text-transform: uppercase;
+		padding: 15px 50px;
+		margin: 20px 0px 10px 0px;
+		border: none;
+		border-bottom: 5px solid #14a58c;
+		border-radius: 5px;
+	}
+
+
+
+
+
+
+}
+
+
+
+
+/* @media only screen and (min-width: 576px) and (max-width: 767px) {
+	.testimonial-container .row{
+		min-width: 1200px;
+	  }
+	  .testimonial-container .counter {
+		animation: testimonial-scroll 20s linear infinite;
+	}
+	  
+	@keyframes testimonial-scroll {
+		0% {
+		  transform: translateX(100%);
+		}
+		100% {
+		  transform: translateX(-100%);
+		}
+	}
+} */
+/* @media (max-width: 991px) {
+	.testimonial-container{
+		animation: testimonial-scroll 10s linear infinite paused;
+	  }
+	  @keyframes testimonial-scroll {
+		0% {
+		  transform: translateX(100%);
+		}
+		100% {
+		  transform: translateX(-200%);
+		}
+} */
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) {
+	#testimonial-section .col-md-4{
+		width: 51%;
+	  }
+} */
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+	
+}
+
+/* @media (min-width: 320px) and (max-width: 1199px) {
+	.testimonial-container .container {
+	  animation: testimonial-scroll 10s linear infinite;
+	  white-space: nowrap;
+	}
+
+	.testimonial{
+		width: 33.33%;
+		max-width: 100%;
+		display: inline-block;
+		vertical-align: top;
+	
+  }
+} */
