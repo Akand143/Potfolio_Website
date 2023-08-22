@@ -1,0 +1,653 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    /* min-height: 210px; */
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    margin-left: 50px;
+    padding-top: 30px;
+    width: 130px;
+    height: 120px;
+}
+
+.nav{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    margin-right: 20px;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    float: left;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #333131;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav ul li a:hover{
+    color: #7f97ff;
+}
+
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: 180px;
+}
+
+#check{
+    display: none;
+}
+
+/* Section1 start */
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 932px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .about .aboutImg{
+    width: 50%;
+} */
+
+.about{
+    margin-left: 50px;
+    /* margin-bottom: 20px; */
+    width: 60%;
+}
+
+.about h3{
+    font-weight: normal;
+    margin: 0;
+}
+.about h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+.about p{
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 25px;
+    color: rgba(10, 17, 25, 0.9);
+}
+
+.about input{
+    padding: 12px 25px;
+    background-color: #8393ff;
+    outline: none;
+    color: #fff;
+    border: 1px solid #8393ff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.about input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+    background-color: #f1f9;
+}
+
+.aboutImg{
+    padding-right: 50px;
+}
+
+.aboutImg img{
+    max-width: 100%;
+    height: 620px;
+    /* margin-top: 150px; */
+}
+/* Section1 End */
+
+/* Section2 start */
+.section2{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImg2{
+    padding-left: 40px;
+}
+
+.aboutImg2 img{
+    max-width: 100%;
+    height: 750px;
+}
+
+.about2{
+    margin: 30px;
+    width: 70%;
+}
+
+.about2 h3{
+    font-weight: normal;
+    margin: 0;
+}
+.about2 h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+.about2 p{
+    text-align: justify;
+    line-height: 25px;
+    color: rgba(10, 17, 25, 0.9);
+}
+
+.about2 input{
+    padding: 12px 25px;
+    background-color: #8393ff;
+    outline: none;
+    color: #fff;
+    border: 1px solid #8393ff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+.about2 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+    background-color: #f1f9;
+}
+/* Section2 End */
+
+/* Section3 Start */
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.OfferSection h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+
+.OfferSection p{
+    /* width: 500px; */
+    color: rgba(10, 10, 10, 0.7);
+}
+
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.serviceAbout{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.serviceAbout i{
+    font-size: 45px;
+}
+
+.serviceAbout h1{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.serviceAbout p{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.serviceAbout:hover{
+    background-color: #8293ff;
+}
+/* Section3 End */
+
+/* Section4 Start */
+.section4{
+    width: 100%;
+    height: 200px;
+    background-color: #8293ff;
+}
+
+.counter{
+    float: left;
+    width: 25%;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+
+.counter h1{
+    color: #ff0000;
+    font-size: 45px;
+    line-height: 0;
+}
+
+.counter p{
+    color: #0000ff;
+    font-size: 20px;
+}
+/* Section3 End */
+
+/* Portfolio Start */
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.portfolio{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.portfolio h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 0;
+}
+
+.portfolio p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+
+.portfoioArea{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.portfoioItem img{
+    width: 250px;
+    height: 250px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.portfoioItem h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.portfoioItem p{
+    line-height: 0;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.portfoioItem figure{
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+
+.portfoioItem figure:hover img{
+    opacity: .3;
+    transition: all .3s ease-in-out;
+}
+/* Portfolio End */
+
+/* Pricing Table Start */
+.section6{
+    width: 100%;
+    height: 700px;
+    padding-top: 30px;
+}
+
+.section6 .text4{
+    text-align: center;
+    padding: 2% 0;
+}
+
+.section6 .text4 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+
+.section6 .text4 p{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.section6 .card{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.section6 .card1{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(240, 249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.section6 .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+
+.section6 .card1 .price{
+    font-size: 40px;
+}
+
+.section6 .card1 input{
+    outline: none;
+    background-color: #8293ff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 25px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.section6 .card1:hover{
+    background-color: #8293ff;
+    color: #fff;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.6);
+}
+
+.section6 .card1:hover input{
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #fff;
+}
+/* Pricing Table End */
+
+/* Footer start */
+footer{
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: #fff;
+    margin-top: 200px;
+}
+
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+footer .foot .foot1 p{
+    color: rgba(130, 147, 255, 0.5);
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+    border-radius: 5px;
+}
+
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: #fff;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.svg-inline--fa{
+    font-size: 17px;
+    cursor: pointer;
+    padding: 10px 5px;
+}
+
+.svg-inline--fa:hover{
+    color: #823f;
+}
+/* Footer end */
+
+@media (max-width:768px){
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+header .logo{
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.checkbtn{
+    display: block !important;
+}
+
+header .nav ul{
+    position: fixed;
+    width: 100%;
+    height: 52vh;
+    background-color: #f9f9ff;
+    top: 156px;
+    /* left: -200%; */
+    transition: all 0.1s;
+}
+
+header .nav ul li{
+    line-height: 10px;
+    clear: both;
+    margin-top: 15px;
+}
+
+#check:checked ~ ul{
+    left: 0;
+}
+
+header .nav ul li a{
+    font-size: 20px;
+    text-align: center;
+}
+
+.section1{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.about{
+    margin: auto;
+    padding: 0;
+}
+
+.about h3{
+    font-size: 15px;
+    top: 30px !important;
+}
+.about h1{
+    font-size: 30px;
+}
+
+.aboutImg img{
+    margin-left: 90px;
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+.section2{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    top: 150px;
+}
+
+.section2 .aboutImg2 img{
+    position: relative;
+    right: 120px;
+}
+
+.section2 div{
+    width: 100%;
+}
+
+.about2{
+    position: relative;
+    left: 15px;
+    text-align: center !important;
+}
+
+.about2 h3{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.about2 h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.about2 p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-left: 50px !important;
+}
+
+.section3{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 400px;
+}
+
+.OfferSection > h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.OfferSection p{
+    width: 80%;
+}
+
+.serviceAbout{
+    clear: left;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.section4{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 500px;
+}
+
+.section4 .counter{
+    clear: left;
+}
+
+.section5{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 500px;
+}
+
+.section6{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 500px;
+}
+
+.section6 .text4 h1{
+    font-size: 35px;
+}
+
+.section6 .text4 p{
+    width: 80%;
+    margin: auto;
+}
+
+.section6 .card{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    left: 90px;
+}
+
+.card1{
+    margin-top: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 120em;
+}
+
+footer .foot{
+    display: block;
+    position: relative;
+    top: 100px;
+}
+
+
+}

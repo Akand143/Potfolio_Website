@@ -1,0 +1,748 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+#container{
+    width: 100%;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+
+.logo a{
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    color: #2f2e;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.SearchArea{
+    position: fixed;
+    right: 70px;
+    top: 50px;
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(167, 158, 245, 0.1);
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.searchbox input{
+    height: 20px;
+    width: 90px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #1f1f1f;
+    font-family: calibri;
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+
+.searchbox input::placeholder{
+    color: #0000ff;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-family: poppins;
+}
+
+.section{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+}
+
+.section img{
+    height: 300px;
+}
+
+.sectionButton{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+}
+
+.sectionButton h1, h2{
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 0;
+    line-height: 60px;
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+    letter-spacing: 5px;
+    color: #3d3d4a;
+    text-transform: uppercase;
+}
+
+.sectionButton h1{
+    letter-spacing: 37px;
+}
+
+span{
+    color: #7a72ff;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    margin-top: 20px;
+    color: #fff;
+    font-family: calibri;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    cursor: pointer;
+    border: transparent !important;
+}
+
+.btn:hover{
+    color: #000;
+    background-color: #6e6;
+    transition: all ease 0.5s;
+}
+
+.social-icon{
+    position: fixed;
+    left: 4%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    padding: 5px 0px;
+    z-index: 1;
+}
+
+.social-icon a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 15px;
+}
+
+.social-icon a i{
+    color: rgba(39, 39, 39, 0.80);
+}
+
+.social-icon a:hover .fa-facebook-f{
+    color: #3b5998;
+}
+
+.social-icon a:hover .fa-twitter{
+    color: #00acee;
+}
+
+.social-icon a:hover .fa-instagram{
+    color: #3f729b;
+}
+
+.social-icon a:hover .fa-youtube{
+    color: #c4302b;
+}
+
+#productSection{
+    width: 85%;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    display: flex;
+    margin: 0px auto;
+    margin-top: -60px;
+    padding: 0px 20px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+}
+
+#productSection > h3{
+    margin: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+    font-family: myriad pro;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2rem;
+    color: #323543;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.productBox{
+    width: 200px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 0px 30px;
+}
+
+.productBox img{
+    height: 180px;
+}
+
+.productBox p{
+    color: #212529;
+    font-family: myriad pro;
+    font-size: 0.9rem;
+    letter-spacing: 0.7px;
+    padding-top: 5px;
+    margin-bottom: 0rem;
+}
+.productBox a{
+    color: #2c2c2c;
+    font-family: poppins;
+    font-size: 1rem;
+}
+
+.productBox:hover{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.BuyBtn{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+    background: linear-gradient(120deg,#6b60ec 20%,#a16641);
+    color: #fff;
+    display: none;
+    animation: fade 0.2s;
+}
+
+.productBox:hover .BuyBtn{
+    display: flex;
+}
+
+.productBox:hover a:last-child{
+    color: #fff;
+    transition: all ease 0.3s;
+}
+
+#aboutSection{
+    display: flex;
+    width: 100%;
+    margin: 30px 0px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    padding: 30px;
+    margin-bottom: 100px !important;
+}
+
+.aboutBox{
+    width: 100%;
+    font-family: myriad pro;
+}
+
+.aboutBox h1{
+    color: #333333;
+    font-weight: 700;
+    font-size: 2.9rem;
+    margin: 0px;
+}
+
+.aboutBox p{
+    color: #000;
+    font-size: 1rem;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+.aboutBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#Notification{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 2px solid rgba(141, 19, 19, 0.3); */
+}
+
+.Notification h1{
+    font-size: 2rem;
+    color: rgb(85, 10, 10);
+}
+
+.NotificationInput{
+    width: 500px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.NotificationInput input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.NotificationButton{
+    width: 120px;
+    height: 40px;
+    background-color: #202020;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+.NotificationButton:hover{
+    background-color: #6b60ec;
+    transition: all ease 0.5s;
+}
+
+footer{
+    background-color: #ff0000 !important;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+    color: #f2f2f2;
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+#container {
+    width: 100%;
+    height: 80vh;
+}
+
+#productSection {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    display: flex;
+    margin: 0px auto;
+      margin-top: 0px;
+    margin-top: 0px;
+    padding: 0px 20px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+}
+
+    .sectionButton h1, h2 {
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 0;
+    line-height: 50px;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+    letter-spacing: 5px;
+    color: #3d3d4a;
+    text-transform: uppercase;
+}
+
+.sectionButton h1{
+    letter-spacing: 25px;
+}
+.section {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    transform: translate(-15%,-50%);
+}
+    
+.sectionButton {
+    position: absolute;
+    top: 41%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+}
+
+.productBox {
+    width: 180px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 0px 30px;
+}
+
+.aboutBox h1 {
+    color: #333333;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin: 0px;
+}
+
+#aboutSection {
+    display: flex;
+    width: 100%;
+    margin: 30px 0px;
+      margin-bottom: 30px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    padding: 30px;
+    margin-bottom: 40px !important;
+}
+
+
+
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.logo{
+    position: absolute;
+    left: 15px;
+    top: 50px;
+}
+    
+.logo a{
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    color: #2f2e;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.SearchArea{
+    position: fixed;
+    right: 5px;
+    top: 39px;
+    width: 115px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(167, 158, 245, 0.1);
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.section{
+    position: absolute;
+    left: 18%;
+    top: 45%;
+    transform: translate(-15%,-50%);
+}
+
+.sectionButton{
+    position: absolute;
+    top: 84%;
+    left: 85%;
+    transform: translate(-90%,-50%);
+}
+
+.sectionButton h1, h2{
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 0;
+    line-height: 35px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.08);
+    letter-spacing: 5px;
+    color: #3d3d4a;
+    text-transform: uppercase;
+}
+
+.sectionButton h1{
+    letter-spacing: 22px;
+}
+
+#productSection{
+    width: 85%;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    display: flex;
+    margin: 0px auto;
+    margin-top: 10px;
+    padding: 0px 0px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+}
+
+#productSection > h3{
+    margin: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+    font-family: myriad pro;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #323543;
+}
+
+#aboutSection{
+    display: flex;
+    width: 100%;
+    margin: 30px auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 0px !important;
+}
+
+.aboutBox h1{
+    color: #333333;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin: 0px;
+}
+
+#Notification {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(141, 19, 19, 0.3);
+}
+
+#Notification h1{
+    font-size: 1.2rem;
+}
+
+.NotificationInput {
+    width: 315px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.logo a {
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    color: #2f2e;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+ }
+
+.SearchArea {
+    position: fixed;
+    right: 5px;
+    top: 50px;
+    width: 135px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(167, 158, 245, 0.1);
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.section {
+    position: absolute;
+    left: 28%;
+    top: 45%;
+    transform: translate(-15%,-50%);
+}
+
+.sectionButton {
+    position: absolute;
+    top: 84%;
+    left: 75%;
+    transform: translate(-90%,-50%);
+}
+
+#productSection > h3 {
+    margin: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+    font-family: myriad pro;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #323543;
+  }
+
+  .aboutBox h1 {
+    color: #333333;
+    font-weight: 700;
+    font-size: 2.7rem;
+    margin: 0px;
+  }
+
+.productBox {
+    width: 140px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 0px 30px;
+}
+
+#Notification h1 {
+    font-size: 1.7rem;
+}
+
+.NotificationInput {
+    width: 400px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+}
+
+
+@media only screen and (min-width: 615px) and (max-width: 767px){
+.section {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    transform: translate(-15%,-50%);
+}
+
+.sectionButton {
+    position: absolute;
+    top: 41%;
+    left: 96%;
+    transform: translate(-90%,-50%);
+}
+
+
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
